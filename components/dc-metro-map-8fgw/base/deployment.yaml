@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: dc-metro-map-8fgw
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/redhat-appstudio-qe/release-e2e-deploy-tenant/appstudio/dc-metro-map-8fgw@sha256:3a30f6014aae92f1a4cc650fd67ee2a3667c8f38b0ac370118158388fadb0c25
         name: my-nodejs
         ports:
         - containerPort: 3001
